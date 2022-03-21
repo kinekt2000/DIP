@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run L1 main",
+            "type": "python",
+            "request": "launch",
+            "program": "./L1/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "-a", "32",
+                "-c", "1",
+                "-s", "0",
+                // "./L1/bmp_esher.bmp"
+                "./L1/png_peach.png"
+            ]
+        }
+    ]
+}
